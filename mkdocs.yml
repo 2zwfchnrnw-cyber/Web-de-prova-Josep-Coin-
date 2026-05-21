@@ -1,10 +1,10 @@
 site_name: Josep Coin Biot
 
-site_url: https://2zwfchnrnw-cyber.github.io/Web-de-prova-Josep-Coin-/
-
 nav: 
   - Apuntes: Els meus apunts.md
   - Diapositivas: Presentació.md
 
 
 
+docs_dir: 'md'
+site_dir: 'docs'
