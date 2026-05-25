@@ -8,7 +8,7 @@ paginate: true
 
 Pianista, compositor y director de orquesta ruso, considerado uno de los músicos más influyentes del siglo XX.  
 
- ![](images/images.jpeg)
+ ![](images.jpeg)
 
 ---
 ## 1.1 Biografía y Estilo
@@ -54,7 +54,7 @@ d) ***Período dodecafónico o serialista***
 
 ---
 # 2. Luigi Russolo (1885 – 1947)
-![w:300 h:300](images/luigi_russolo.jpeg)
+![w:300 h:300](luigi_russolo.jpeg)
 
 - Pintor futurista y compositor italiano, pionero de la música experimental.  
 
@@ -64,12 +64,12 @@ d) ***Período dodecafónico o serialista***
 - **Intonarumori:** Inventó estas máquinas de ruido ("entonadores de ruidos") para sus conciertos.  
 
 - **Obra destacada:** *Risveglio di una Città*.  
-![w:400 h:300](images/città.jpg)
+![w:400 h:300](città.jpg)
 - Es considerado uno de los primeros filósofos de la música electrónica.  
 
 ---
 # 3. Juan García Castillejo (1903 – 1985)
-![w:300 h:300](images/castillejo.jpg)
+![w:300 h:300](castillejo.jpg)
 
 - Sacerdote e inventor español, precursor incomprendido de la música electrónica asistida por ordenador.  
 
