@@ -2,11 +2,42 @@ site_name: Josep Coin Biot
 
 site_url: https://2zwfchnrnw-cyber.github.io/Web-de-prova-Josep-Coin-/
 
+theme:
+  name: material
+  palette:
+    # Configuración del botón para cambiar entre modo claro y oscuro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Cambia a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Cambia a modo claro
+  features:
+    - navigation.tabs # Paneles de navegación arriba
+    - search.share    # Búsqueda de recursos avanzada
+
+markdown_extensions:
+  - admonition       # Paneles de avisos (admonitions)
+  - pymdownx.details # Permite que los admonitions sean plegables (???)
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format # Para los diagramas
+  - pymdownx.highlight:
+      line_nums: true # Numeración de líneas en el código
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+plugins:
+  - search
+  - page-to-pdf # El plugin para el botón de descargar PDF (page-to-pdf)
 nav: 
   - Apuntes: Els meus apunts.md
   - Diapositivas: Presentació.md
 
-
-
-docs_dir: 'md'
-site_dir: 'docs'
+docs_dir: 'docs'
