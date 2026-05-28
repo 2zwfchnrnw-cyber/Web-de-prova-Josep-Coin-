@@ -16,6 +16,13 @@ d) **Vida personal:** Casado dos veces (Yekaterina Nosenko y Vera de Bosset). Vi
 
 a) ***Período Primitivo o Ruso:***
 
+## Exemple de codi
+
+```python linenums="1"
+for i in range(5):
+    print("Hola", i)
+```
+
 
 - Influenciado por el folclore ruso y Rimski-Kórsakov.  
 

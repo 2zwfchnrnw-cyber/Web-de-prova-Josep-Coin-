@@ -6,6 +6,7 @@ theme:
   features:
     - navigation.sections
     - navigation.top
+    - content.code.copy
 
   palette:
     - scheme: default
@@ -21,7 +22,8 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.highlight
+  - pymdownx.highlight:
+     linenums: true
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
