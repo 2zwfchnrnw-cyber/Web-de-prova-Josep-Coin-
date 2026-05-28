@@ -80,14 +80,14 @@ d) ***Período dodecafónico o serialista***
 
 - **Legado:** Murió en el anonimato y la pobreza en Valencia; sus aparatos fueron vendidos como chatarra. Actualmente existe el *Premio Cura Castillejo* en su honor.  
 
-## Diagrama
+## Diagrama Mermaid
 
-```mermaid
-graph TD
-    A[Música Electrònica] --> B[Luigi Russolo]
-    A --> C[Juan García Castillejo]
-    A --> D[Igor Stravinsky]
-
+``` mermaid
+graph TD;
+  A[Música Electrònica] --> B[Luigi Russolo]
+  A --> C[Juan García Castillejo]
+  A --> D[Igor Stravinsky]
+```
 
 '''text
 ??? note "Més informació"
