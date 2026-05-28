@@ -40,4 +40,5 @@ nav:
   - Apuntes: Els meus apunts.md
   - Diapositivas: Presentació.md
 
-docs_dir: md/
+docs_dir: 'md'
+site_dir: 'docs'
