@@ -3,31 +3,34 @@ site_url: https://2zwfchnrnw-cyber.github.io/Web-de-prova-Josep-Coin-/
 
 theme:
   name: material
-  palette:
-    scheme: default # O 'slate' para oscuro por defecto
-    toggle:
-      icon: material/brightness-7
-      name: Canviar a mode fosc
-      features:
-    - search.highlight
-    - search.share
+   features:
     - navigation.sections
-    
+    - navigation.top
+  palette:
+      - scheme: default
+      toggle:
+          icon: material/brightness-7 
+          name: Canvia a mode oscur
+
+      - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Canvia a mode clar
     markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+   - admonition
+   - pymdownx.highlight
+   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  
+  plugins:
+   - search
+   - glightbox
+   - pdf-export
+
 docs_dir: 'md'
 site_dir: 'docs'
 
