@@ -60,3 +60,6 @@ d) ***Período dodecafónico o serialista***
 - *El Electrocompositor Musical:* Máquina programable con válvulas y osciladores capaz de crear secuencias automáticas. Permitía guardar composiciones mediante cintas perforadas (protolenguaje de programación).  
 
 - **Legado:** Murió en el anonimato y la pobreza en Valencia; sus aparatos fueron vendidos como chatarra. Actualmente existe el *Premio Cura Castillejo* en su honor.  
+
+!!! note "Nota important"
+    Aquests són els apunts principals sobre els autors.
